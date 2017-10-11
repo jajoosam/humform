@@ -1,0 +1,39 @@
+doctype html
+html
+	head
+		title HUM
+		link(rel='stylesheet', href='https://unpkg.com/wingcss')
+	body
+		div
+			h3 Social
+			h4 Why?
+			p= social["why"]
+			h4 What?
+			p= social["what"]
+			h3 Cognitive
+			h4 Why?
+			p= cognitive["why"]
+			h4 What?
+			p= cognitive["what"]
+			h3 Physical
+			h4 Why?
+			p= physical["why"]
+			h4 What?
+			p= physical["what"]
+			style.
+				*{margin-top: 0; margin-bottom: 0.5em;}
+				div{
+				    margin: auto;
+				    width: 50%;
+				    padding: 10px;
+				}
+				body{
+					background-color: #360695;
+					color: #de981f;
+				}
+				h3{
+					color: #3dd2f0;
+				}
+				h4{
+					color: #8b7dad;
+				}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Express</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/3.3.6/flatly/bootstrap.min.css">
+</head>
+
+<body></body>
+
+</html>
+<div class="row">
+    <div id="" class="col-md-8">
+        <h1>HUM Plan</h1>
+        <form  method="post" action="/submit" class="form-horizontal well">
+            <div class="form-group">
+                <label class="col-md-2 control-label">Investment</label>
+                <div class="col-md-10">
+                    <div class="input-group">
+                         <select name="investment">
+                          <option value="social">Social-Emotional</option>
+                          <option value="cognitive">Cognitive</option>
+                          <option value="physical">Physical</option>
+                      </select> 
+                        <div class="input-group-addon">Grade 2</div>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-md-2 control-label">Why?</label>
+                <div class="col-md-10">
+                    <textarea name="why" placeholder="Write down the relevance of your session..." class="form-control"></textarea>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-md-2 control-label">What and how?</label>
+                <div class="col-md-10">
+                    <textarea name="what" placeholder="Write the plan..." class="form-control"></textarea>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10"></div>
+            </div>
+            <input type="submit" value="Send Plan" class="btn btn-default">
+        </form>
+        <style>
+            ghap{
+                margin: auto;
+                width: 50%;
+                padding: 10px;
+            }
+        </style>
+    </div>
+</div>
